@@ -6,4 +6,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-<button onclick="myFunction()"></button>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
