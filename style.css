@@ -77,7 +77,13 @@ header{
   font-size: 1.5rem;
   position: relative;
 }
-
+.dark-mode {
+  background-color: black;
+  color: white;
+  
+#ld {
+      background-image: url("https://cdn1.iconfinder.com/data/icons/user-interface-16x16-vol-1/16/contrast-circle-512.png");
+  }
 
 
 
