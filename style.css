@@ -69,6 +69,11 @@ header{
   height:3rem;
   position:relative;
 }
+
+#navbar {
+  padding:1 rem;
+  background-color:black;
+  }
 .opennav{
   position:relative;
 }
@@ -85,10 +90,6 @@ header{
       background-image: url("https://cdn1.iconfinder.com/data/icons/user-interface-16x16-vol-1/16/contrast-circle-512.png");
   }
 
-#navbar {
-  padding:1 rem;
-  background-color:black;
-  }
 
 
 
