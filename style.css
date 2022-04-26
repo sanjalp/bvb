@@ -85,7 +85,12 @@ header{
 .dark-mode {
   background-color: black;
   color: white;
-  
+   }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 #ld {
       background-image: url("https://cdn1.iconfinder.com/data/icons/user-interface-16x16-vol-1/16/contrast-circle-512.png");
   }
