@@ -1,6 +1,13 @@
 body {
-  background: white;
+  background: #ccf2ff;
+  animation: bgone 20s infinite;
 }
+
+@keyframes bgone {
+    0%   {background-color: #ccf2ff ;}
+  50%  {background-color: white;}
+  100%  {background-color: #ccf2ff;}
+ }
 p {
   color: black;
 }
@@ -66,16 +73,18 @@ header{
 }
 .logo{
   margin: 0.80rem;
-  height:3rem;
+  height:4rem;
   position:relative;
 }
 
 #navbar {
   overflow: hidden;
   background-color: #333;
+  left:0;
 }
 .opennav{
   position:relative;
+  color:white;
 }
 .title{
   margin-top: 1rem;
@@ -88,14 +97,40 @@ header{
    }
 .sticky {
   position: fixed;
-  top: 0;
-  width: 100%;
-}
+  top: 0; 
+  width:100%;
+   }
 #ld {
-      background-image: url("https://cdn1.iconfinder.com/data/icons/user-interface-16x16-vol-1/16/contrast-circle-512.png");
+     height:1.4rem;
+     width: 1.4rem;
+     float: right;
+     align: center
+     margin: 1rem;
   }
 
+.webclasses {
+     border-radius: 20%;
+  }
+.halo {
+     background-color: white;
+     border-radius: 47%;
+     margin:1rem;
+  }
+.halo:hover {
+     opacity:55%;
+     border:white , 0.5rem;
+  }
 
+.webclasses:hover {
+     opacity:70%;
+  }
+.quotes{
+     height:10rem;
+     margin:0.825rem;
+     border-radius:10%;
+     box-shadow:0 0 0.7rem #4d4d4d , 0 0 0.9rem #e6e6e6;
+
+  } 
 
 
 
